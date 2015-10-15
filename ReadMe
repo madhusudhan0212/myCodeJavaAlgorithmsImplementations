@@ -1,0 +1,4 @@
+This repositoy contains list of Algorithms and DataStructures implemented in Java.
+These algorithms are developed while suing Algorithms I course in Coursera by Robert Sedgewick.
+All the algorithms are implemented along with unit test cases with in code
+If you want to use these programs, download them and place it under package named temp

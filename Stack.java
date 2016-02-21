@@ -2,7 +2,6 @@ package temp;
 
 public class Stack<Item> {
 	private Node first = null;
-	
 	 private class Node {
 		Item item;
 		Node next;
@@ -28,6 +27,8 @@ public class Stack<Item> {
 	{
 		return first==null;
 	}
+	
+	
 
 	public static void main(String[] args) {
 		

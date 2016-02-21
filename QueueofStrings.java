@@ -32,6 +32,14 @@ public class QueueofStrings {
 	{
 		return first==null;
 	}
+	
+	public String getString(){
+		String s ="";
+		while(!isEmpty()){
+			s += dequeue();
+		}
+		return s;
+	}
 
 	public static void main(String[] args) {
 		
@@ -41,6 +49,7 @@ public class QueueofStrings {
 		queue.enqueue("Madhu");
 		queue.enqueue("Sudhan");
 		queue.enqueue("Goud");
+		System.out.println(queue.getString());
 		System.out.println(queue.dequeue());
 		queue.enqueue("Paruchuri");
 		queue.enqueue("Madhu");
